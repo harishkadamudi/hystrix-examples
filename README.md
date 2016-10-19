@@ -17,3 +17,5 @@ Be alerted, make decisions, affect change and see results in seconds.
 3) Concurrency
 
 Parallel execution. Concurrency aware request caching. Automated batching through request collapsing.
+
+Examples are pretty straight forward. Examples are provided with the Main class you can easily run and understand.
