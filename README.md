@@ -20,5 +20,5 @@ Parallel execution. Concurrency aware request caching. Automated batching throug
 
 Examples are pretty straight forward. Examples are provided with the Main class you can easily run and understand.
 
-Test class [TestCommandHelloWorld](/hystrix-examples/src/main/java/command/TestCommandHelloWorld.java) explores Synchronous, Asynchronous & Reactive Execution.
+Test class [TestCommandHelloWorld](https://github.com/harishkadamudi/hystrix-examples/blob/master/src/main/java/command/TestCommandHelloWorld.java) explores Synchronous, Asynchronous & Reactive Execution.
  
