@@ -21,4 +21,11 @@ Parallel execution. Concurrency aware request caching. Automated batching throug
 Examples are pretty straight forward. Examples are provided with the Main class you can easily run and understand.
 
 Test class [TestCommandHelloWorld](https://github.com/harishkadamudi/hystrix-examples/blob/master/src/main/java/command/TestCommandHelloWorld.java) explores Synchronous, Asynchronous & Reactive Execution.
- 
+
+Request Collapsing
+
+Request collapsing enables multiple requests to be batched into a single HystrixCommand instance execution.
+
+A collapser can use the batch size and the elapsed time since the creation of the batch as triggers for executing a batch.
+
+Test Class [TestBatchCommand] (https://github.com/harishkadamudi/hystrix-examples/blob/master/src/main/java/command/collapser/TestBatchCommand.java) demonstrate Batch collapsing.
